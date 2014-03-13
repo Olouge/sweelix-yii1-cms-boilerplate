@@ -7,7 +7,7 @@
  * @author    Philippe Gaultier <pgaultier@sweelix.net>
  * @copyright 2010-2014 Sweelix
  * @license   http://www.sweelix.net/license license
- * @version   XXX
+ * @version   1.0.0
  * @link      http://www.sweelix.net
  * @category  controllers
  * @package   application.controllers
@@ -23,11 +23,11 @@ use sweelix\yii1\ext\db\CriteriaBuilder;
  * @author    Philippe Gaultier <pgaultier@sweelix.net>
  * @copyright 2010-2014 Sweelix
  * @license   http://www.sweelix.net/license license
- * @version   XXX
+ * @version   1.0.0
  * @link      http://www.sweelix.net
  * @category  controllers
  * @package   application.controllers
- * @since     XXX
+ * @since     1.0.0
  */
 class SiteController extends Controller {
 
@@ -35,7 +35,7 @@ class SiteController extends Controller {
 	 * Default action
 	 *
 	 * @return void
-	 * @since  XXX
+	 * @since  1.0.0
 	 */
 	public function actionIndex() {
 		$this->render('index');
