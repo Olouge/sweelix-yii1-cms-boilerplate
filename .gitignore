@@ -1,6 +1,6 @@
-assets/
+assets/*
 !assets/remove.txt
-protected/runtime/
+protected/runtime/*
 !protected/runtime/remove.txt
 protected/vendor/
 protected/config/*-dev.php
