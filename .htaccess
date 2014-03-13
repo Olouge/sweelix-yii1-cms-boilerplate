@@ -8,6 +8,7 @@ RewriteEngine on
 
 ## Disallow access to git resources
 RewriteRule ^(.*/)?\.git+ - [R=404,L]
+RewriteRule ^composer\.+ - [R=404,L]
 
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
