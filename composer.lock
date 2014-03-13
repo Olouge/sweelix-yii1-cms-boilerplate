@@ -1,0 +1,500 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
+    ],
+    "hash": "e704e05bda3f2ba8541619ceffedc4ac",
+    "packages": [
+        {
+            "name": "leafo/lessphp",
+            "version": "v0.4.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/leafo/lessphp.git",
+                "reference": "51f3f06f0fe78a722dabfd14578444bdd078d9de"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/leafo/lessphp/zipball/51f3f06f0fe78a722dabfd14578444bdd078d9de",
+                "reference": "51f3f06f0fe78a722dabfd14578444bdd078d9de",
+                "shasum": ""
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "0.3-dev"
+                }
+            },
+            "autoload": {
+                "classmap": [
+                    "lessc.inc.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT",
+                "GPL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Leaf Corcoran",
+                    "email": "leafot@gmail.com",
+                    "homepage": "http://leafo.net"
+                }
+            ],
+            "description": "lessphp is a compiler for LESS written in PHP.",
+            "homepage": "http://leafo.net/lessphp/",
+            "time": "2013-08-09 17:09:19"
+        },
+        {
+            "name": "sweelix/image",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/pgaultier/image.git",
+                "reference": "09eacd3517b17c82f457865d74380fa5a7cbb333"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/pgaultier/image/zipball/09eacd3517b17c82f457865d74380fa5a7cbb333",
+                "reference": "09eacd3517b17c82f457865d74380fa5a7cbb333",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "sweelix\\image\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Philippe Gaultier",
+                    "email": "pgaultier@sweelix.net"
+                }
+            ],
+            "description": "PHP 5.3+ image handler",
+            "keywords": [
+                "image",
+                "resize"
+            ],
+            "time": "2014-02-12 14:06:37"
+        },
+        {
+            "name": "sweelix/yii1",
+            "version": "3.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/pgaultier/sweelix-yii1.git",
+                "reference": "d4a7306adb2ae997a7aa1b5477a390119197adea"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/pgaultier/sweelix-yii1/zipball/d4a7306adb2ae997a7aa1b5477a390119197adea",
+                "reference": "d4a7306adb2ae997a7aa1b5477a390119197adea",
+                "shasum": ""
+            },
+            "require": {
+                "leafo/lessphp": "0.4.0",
+                "php": ">=5.4.0",
+                "sweelix/image": "1.0.0",
+                "yiisoft/yii": "1.1.14"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "sweelix\\yii1\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Philippe Gaultier",
+                    "email": "pgaultier@sweelix.net"
+                }
+            ],
+            "description": "PHP 5.4+ Sweelix extensions for Yii",
+            "keywords": [
+                "behaviors",
+                "filters",
+                "yii"
+            ],
+            "time": "2014-03-13 11:49:41"
+        },
+        {
+            "name": "sweelix/yii1-admin-cloud",
+            "version": "3.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/pgaultier/sweelix-yii1-admin-cloud.git",
+                "reference": "f2f17286ed30cb4f504c480a260869882806840b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/pgaultier/sweelix-yii1-admin-cloud/zipball/f2f17286ed30cb4f504c480a260869882806840b",
+                "reference": "f2f17286ed30cb4f504c480a260869882806840b",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0",
+                "sweelix/yii1-admin-core": "*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "sweelix\\yii1\\admin\\cloud\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Philippe Gaultier",
+                    "email": "pgaultier@sweelix.net"
+                }
+            ],
+            "description": "PHP 5.4+ Sweelix CMS cloud (tag/groups) management",
+            "keywords": [
+                "back office",
+                "cloud",
+                "cms",
+                "group",
+                "sweelix",
+                "tag",
+                "yii"
+            ],
+            "time": "2014-03-13 12:08:07"
+        },
+        {
+            "name": "sweelix/yii1-admin-core",
+            "version": "3.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/pgaultier/sweelix-yii1-admin-core.git",
+                "reference": "38ab38f8df7cc6ace06e6673fba3d80a8dce4753"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/pgaultier/sweelix-yii1-admin-core/zipball/38ab38f8df7cc6ace06e6673fba3d80a8dce4753",
+                "reference": "38ab38f8df7cc6ace06e6673fba3d80a8dce4753",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0",
+                "sweelix/yii1-ext": "*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "sweelix\\yii1\\admin\\core\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Philippe Gaultier",
+                    "email": "pgaultier@sweelix.net"
+                }
+            ],
+            "description": "PHP 5.4+ Sweelix CMS  basic admin for Yii",
+            "keywords": [
+                "back office",
+                "cms",
+                "sweelix",
+                "yii"
+            ],
+            "time": "2014-03-13 12:05:09"
+        },
+        {
+            "name": "sweelix/yii1-admin-dashboard",
+            "version": "3.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/pgaultier/sweelix-yii1-admin-dashboard.git",
+                "reference": "ee43e8424dd7a644b81270fd3921cd49175a9e08"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/pgaultier/sweelix-yii1-admin-dashboard/zipball/ee43e8424dd7a644b81270fd3921cd49175a9e08",
+                "reference": "ee43e8424dd7a644b81270fd3921cd49175a9e08",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0",
+                "sweelix/yii1-admin-core": "*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "sweelix\\yii1\\admin\\dashboard\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Philippe Gaultier",
+                    "email": "pgaultier@sweelix.net"
+                }
+            ],
+            "description": "PHP 5.4+ Sweelix CMS  basic dashboard",
+            "keywords": [
+                "back office",
+                "cms",
+                "dashboard",
+                "sweelix",
+                "yii"
+            ],
+            "time": "2014-03-13 12:09:24"
+        },
+        {
+            "name": "sweelix/yii1-admin-structure",
+            "version": "3.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/pgaultier/sweelix-yii1-admin-structure.git",
+                "reference": "4b6b41ff09fa17bb16461ed1eae3ca8b3cdd481f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/pgaultier/sweelix-yii1-admin-structure/zipball/4b6b41ff09fa17bb16461ed1eae3ca8b3cdd481f",
+                "reference": "4b6b41ff09fa17bb16461ed1eae3ca8b3cdd481f",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0",
+                "sweelix/yii1-admin-core": "*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "sweelix\\yii1\\admin\\structure\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Philippe Gaultier",
+                    "email": "pgaultier@sweelix.net"
+                }
+            ],
+            "description": "PHP 5.4+ Sweelix CMS structure management",
+            "keywords": [
+                "back office",
+                "cms",
+                "structure",
+                "sweelix",
+                "yii"
+            ],
+            "time": "2014-03-13 12:06:43"
+        },
+        {
+            "name": "sweelix/yii1-admin-users",
+            "version": "3.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/pgaultier/sweelix-yii1-admin-users.git",
+                "reference": "f77abcacd7a615e7e0bf13548eedc78024bbcf3c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/pgaultier/sweelix-yii1-admin-users/zipball/f77abcacd7a615e7e0bf13548eedc78024bbcf3c",
+                "reference": "f77abcacd7a615e7e0bf13548eedc78024bbcf3c",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0",
+                "sweelix/yii1-admin-core": "*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "sweelix\\yii1\\admin\\users\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Philippe Gaultier",
+                    "email": "pgaultier@sweelix.net"
+                }
+            ],
+            "description": "PHP 5.4+ Sweelix CMS  user management",
+            "keywords": [
+                "Users",
+                "back office",
+                "cms",
+                "sweelix",
+                "yii"
+            ],
+            "time": "2014-03-13 12:10:46"
+        },
+        {
+            "name": "sweelix/yii1-ext",
+            "version": "3.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/pgaultier/sweelix-yii1-ext.git",
+                "reference": "5fcc453464c94462d81ee9a639dd8c8ddd80bd4b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/pgaultier/sweelix-yii1-ext/zipball/5fcc453464c94462d81ee9a639dd8c8ddd80bd4b",
+                "reference": "5fcc453464c94462d81ee9a639dd8c8ddd80bd4b",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0",
+                "yiisoft/yii": "1.1.14"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "sweelix\\yii1\\ext\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Philippe Gaultier",
+                    "email": "pgaultier@sweelix.net"
+                }
+            ],
+            "description": "PHP 5.4+ Sweelix CMS extension for Yii",
+            "keywords": [
+                "cms",
+                "sweelix",
+                "yii"
+            ],
+            "time": "2014-03-13 12:03:00"
+        },
+        {
+            "name": "yiisoft/yii",
+            "version": "1.1.14",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/yiisoft/yii.git",
+                "reference": "f0fee98ee84f70f1f3652f65562c9670e919cb4e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/yiisoft/yii/zipball/f0fee98ee84f70f1f3652f65562c9670e919cb4e",
+                "reference": "f0fee98ee84f70f1f3652f65562c9670e919cb4e",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.1.0"
+            },
+            "bin": [
+                "framework/yiic"
+            ],
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Qiang Xue",
+                    "email": "qiang.xue@gmail.com",
+                    "homepage": "http://www.yiiframework.com/",
+                    "role": "Founder and project lead"
+                },
+                {
+                    "name": "Alexander Makarov",
+                    "email": "sam@rmcreative.ru",
+                    "homepage": "http://rmcreative.ru/",
+                    "role": "Core framework development"
+                },
+                {
+                    "name": "Maurizio Domba",
+                    "homepage": "http://mdomba.info/",
+                    "role": "Core framework development"
+                },
+                {
+                    "name": "Carsten Brandt",
+                    "email": "mail@cebe.cc",
+                    "homepage": "http://cebe.cc/",
+                    "role": "Core framework development"
+                },
+                {
+                    "name": "Wei Zhuo",
+                    "email": "weizhuo@gmail.com",
+                    "role": "Project site maintenance and development"
+                },
+                {
+                    "name": "Sebastián Thierer",
+                    "email": "sebas@artfos.com",
+                    "role": "Component development"
+                },
+                {
+                    "name": "Jeffrey Winesett",
+                    "email": "jefftulsa@gmail.com",
+                    "role": "Documentation and marketing"
+                },
+                {
+                    "name": "Timur Ruziev",
+                    "email": "resurtm@gmail.com",
+                    "homepage": "http://resurtm.com/",
+                    "role": "Core framework development"
+                },
+                {
+                    "name": "Paul Klimov",
+                    "email": "klimov.paul@gmail.com",
+                    "role": "Core framework development"
+                }
+            ],
+            "description": "Yii Web Programming Framework",
+            "homepage": "http://www.yiiframework.com/",
+            "keywords": [
+                "framework",
+                "yii"
+            ],
+            "time": "2013-08-12 00:12:08"
+        }
+    ],
+    "packages-dev": [
+
+    ],
+    "aliases": [
+
+    ],
+    "minimum-stability": "stable",
+    "stability-flags": [
+
+    ],
+    "platform": {
+        "php": ">=5.4.0"
+    },
+    "platform-dev": [
+
+    ]
+}

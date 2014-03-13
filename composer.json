@@ -1,0 +1,18 @@
+{
+	"description" : "PHP 5.4+ Yii template",
+	"authors" : [ {
+	"name" : "Philippe Gaultier",
+		"email" : "pgaultier@sweelix.net"
+	} ],
+	"config": {
+        "vendor-dir": "protected/vendor"
+    },
+	"require" : {
+		"php" : ">=5.4.0",
+		"sweelix/yii1" : "*",
+		"sweelix/yii1-admin-structure" : "*",
+		"sweelix/yii1-admin-cloud" : "*",
+		"sweelix/yii1-admin-dashboard" : "*",
+		"sweelix/yii1-admin-users" : "*"
+	}
+}
