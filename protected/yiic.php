@@ -2,14 +2,14 @@
 /**
  * index.php
  *
- * PHP version 5.2+
+ * PHP version 5.4+
  *
  * Initial entry point of the console commands.
  *
  * @author    Philippe Gaultier <pgaultier@sweelix.net>
  * @copyright 2010-2014 Sweelix
  * @license   http://www.sweelix.net/license license
- * @version   XXX
+ * @version   1.0.0
  * @link      http://www.sweelix.net
  * @category  base
  * @package   application.base
