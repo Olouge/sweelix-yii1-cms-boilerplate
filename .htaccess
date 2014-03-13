@@ -1,0 +1,11 @@
+#In order to define current system change environment
+# prod | pprod | usine | dev | local
+SetEnv YII_ENV prod
+#If debug is needed define YII DEBUG
+SetEnv YII_DEBUG
+
+RewriteEngine on
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . index.php
