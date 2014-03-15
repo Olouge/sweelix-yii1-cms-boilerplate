@@ -18,7 +18,7 @@
 //Config
 return [
 	'basePath' => dirname(__DIR__),
-	'name' => 'Boilerplate console application',
+	'name' => 'Boilerplate web application',
 	'sourceLanguage' => 'en',
 	'language' => 'en',
 	'timezone' => 'Europe/Paris',
