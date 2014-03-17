@@ -9,7 +9,7 @@ Installation
 1. Download the basic templates
 
 	``` sh
-	$ git clone https://github.com/pgaultier/sweelix-yii1-boilerplate
+	$ git clone https://github.com/pgaultier/sweelix-yii1-cms-boilerplate
 	```
 
 2. Deploy using composer
