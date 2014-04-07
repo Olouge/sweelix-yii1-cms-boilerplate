@@ -5,8 +5,8 @@
 		"email" : "pgaultier@sweelix.net"
 	} ],
 	"config": {
-        "vendor-dir": "protected/vendor"
-    },
+		"vendor-dir": "protected/vendor"
+	},
 	"require" : {
 		"php" : ">=5.4.0",
 		"sweelix/yii1" : "*",

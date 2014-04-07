@@ -14,8 +14,7 @@
  */
 
 namespace application\controllers;
-use sweelix\yii1\ext\db\CriteriaBuilder;
-use CController as Controller;
+use sweelix\yii1\ext\web\Controller;
 
 /**
  * This is the basic app controller
@@ -29,7 +28,7 @@ use CController as Controller;
  * @package   application.controllers
  * @since     1.0.0
  */
-class SiteController extends Controller {
+class ListTemplateController extends Controller {
 
 	/**
 	 * Default action
