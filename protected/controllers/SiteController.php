@@ -13,9 +13,9 @@
  * @package   application.controllers
  */
 
-namespace app\controllers;
-use \CController as Controller;
+namespace application\controllers;
 use sweelix\yii1\ext\db\CriteriaBuilder;
+use CController as Controller;
 
 /**
  * This is the basic app controller
