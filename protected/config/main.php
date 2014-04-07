@@ -22,13 +22,15 @@ return [
 	'sourceLanguage' => 'en',
 	'language' => 'en',
 	'timezone' => 'Europe/Paris',
-	'controllerNamespace' => 'app\controllers',							//Handle namespacing
+	'controllerNamespace' => 'application\controllers',							//Handle namespacing
 	// preloading 'log' component
 	'preload' => ['log'],
 
 	// autoloading model and component classes
 	'import' => [],
-	'behaviors' => [],
+	'behaviors' => [
+		[ 'class' => 'sweelix\yii1\ext\behaviors\Router']
+	],
 	'modules' => [
 		'sweeft' => [
 			'id' => 'sweeft',
@@ -101,11 +103,11 @@ return [
 		],
 		//Human-readable url management
 		'urlManager' => [
-			'class' => 'sweelix\yii1\ext\web\UrlManager',
 			'urlFormat'=>'get',
 			'urlSuffix'=>'.html',
 			'showScriptName' => false,
 			'rules'=>[
+				['class' => 'sweelix\yii1\ext\web\CmsUrlRule'],
 				//Default
 				'<controller:\w+>/<action:\w+>'=>'<controller>/<action>',
 				'<controller:\w+>'=>'<controller>',
